@@ -1,0 +1,54 @@
+@page
+@model Project1.Pages.Person.Search.Person_Search_Model
+
+
+@if(Model.person == null)
+{
+    <h1>Search Person</h1>
+}
+else
+{
+    <h1>Search for @Model.person.name</h1>
+}
+
+<div class="border container col-12">
+    <form method="POST">
+        <div class="row">
+            <label class="col-4">Name for Search: </label>
+            <input class="col-8" asp-for="ID" >
+        </div>
+        <div class="row">
+            <button type="submit" class="btn btn-primmary col-12">Search</button>
+        </div>
+    </form>
+</div>
+
+<hr />
+
+<h2>Search Results</h2>
+<div class="border container col-12">
+    @if(Model.person != null)
+    {
+        <form method="Post">
+            <div class="row">
+                <label class="col-1">ID: </label>
+                <label class="col-2">@Model.person.IdNumber </label>
+                <input type="hidden" asp-for=@Model.person.IdNumber >
+                <label class="col-1">Name: </label>
+                <label class="col-2">@Model.person.name </label>
+                <label class="col-1">Last Name: </label>
+                <label class="col-2">@Model.person.lastName </label>
+                <label class="col-1">Age: </label>
+                <label class="col-1">@Model.person.age </label>
+            </div>
+            <div class="row">
+                <a type="button" class="btn btn-success col-6" asp-page="/Person/Update/Person_Update" asp-route-ID=@Model.person.IdNumber>
+                    Update
+                </a>
+                <button type="submit" class="btn btn-danger col-6" asp-page-handler="Delete">
+                    Delete
+                </button>
+            </div>
+        </form>
+    }
+</div>

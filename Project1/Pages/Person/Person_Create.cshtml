@@ -1,0 +1,46 @@
+@page
+@model Project1.Pages.Person.Person_Create_Model
+
+<h1> Person Create </h1>
+
+<div class="border container col-12">
+    <form method="POST">
+        <div class="row">
+            <div class="col-4">
+                <label asp-for=@Model.person.IdNumber ></label>
+            </div>
+            <div class="col-4">
+                <input asp-for=@Model.person.IdNumber />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <label asp-for=@Model.person.name ></label>
+            </div>
+            <div class="col-4">
+                <input asp-for=@Model.person.name />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <label asp-for=@Model.person.lastName ></label>
+            </div>
+            <div class="col-4">
+                <input asp-for=@Model.person.lastName />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <label asp-for=@Model.person.age ></label>
+            </div>
+            <div class="col-4">
+                <input asp-for=@Model.person.age />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Post Data</button>
+            </div>
+        </div>
+    </form>
+</div>
