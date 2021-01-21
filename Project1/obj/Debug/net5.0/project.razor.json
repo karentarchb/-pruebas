@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\ciro_\\Test_Projects\\2021-1 Intersemestral WEB\\Project1\\Project1.csproj",
+  "FilePath": "c:\\Users\\ciro_\\Test_Projects\\2021-1 Intersemestral WEB\\-pruebas\\Project1\\Project1.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15603,58 +15603,78 @@
   "RootNamespace": "Project1",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\ciro_\\Test_Projects\\2021-1 Intersemestral WEB\\Project1\\Pages\\_ViewImports.cshtml",
-      "TargetPath": "Pages\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\ciro_\\Test_Projects\\2021-1 Intersemestral WEB\\Project1\\Pages\\Person\\Search\\Person_Search.cshtml",
-      "TargetPath": "Pages\\Person\\Search\\Person_Search.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\ciro_\\Test_Projects\\2021-1 Intersemestral WEB\\Project1\\Pages\\Person\\Person_Create.cshtml",
-      "TargetPath": "Pages\\Person\\Person_Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\ciro_\\Test_Projects\\2021-1 Intersemestral WEB\\Project1\\Pages\\Error.cshtml",
-      "TargetPath": "Pages\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\ciro_\\Test_Projects\\2021-1 Intersemestral WEB\\Project1\\Pages\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\ciro_\\Test_Projects\\2021-1 Intersemestral WEB\\-pruebas\\Project1\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\ciro_\\Test_Projects\\2021-1 Intersemestral WEB\\Project1\\Pages\\Test\\Privacy.cshtml",
-      "TargetPath": "Pages\\Test\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\ciro_\\Test_Projects\\2021-1 Intersemestral WEB\\-pruebas\\Project1\\Pages\\Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\ciro_\\Test_Projects\\2021-1 Intersemestral WEB\\Project1\\Pages\\Person\\Person_Create_Successful.cshtml",
-      "TargetPath": "Pages\\Person\\Person_Create_Successful.cshtml",
+      "FilePath": "c:\\Users\\ciro_\\Test_Projects\\2021-1 Intersemestral WEB\\-pruebas\\Project1\\Pages\\Roulette\\Create_Table.cshtml",
+      "TargetPath": "Pages\\Roulette\\Create_Table.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\ciro_\\Test_Projects\\2021-1 Intersemestral WEB\\Project1\\Pages\\Person\\Update\\Person_Update.cshtml",
-      "TargetPath": "Pages\\Person\\Update\\Person_Update.cshtml",
+      "FilePath": "c:\\Users\\ciro_\\Test_Projects\\2021-1 Intersemestral WEB\\-pruebas\\Project1\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\ciro_\\Test_Projects\\2021-1 Intersemestral WEB\\Project1\\Pages\\Shared\\_Layout.cshtml",
-      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\ciro_\\Test_Projects\\2021-1 Intersemestral WEB\\Project1\\Pages\\Index.cshtml",
+      "FilePath": "c:\\Users\\ciro_\\Test_Projects\\2021-1 Intersemestral WEB\\-pruebas\\Project1\\Pages\\Index.cshtml",
       "TargetPath": "Pages\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\ciro_\\Test_Projects\\2021-1 Intersemestral WEB\\Project1\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\ciro_\\Test_Projects\\2021-1 Intersemestral WEB\\-pruebas\\Project1\\Pages\\Roulette\\Create_Bet.cshtml",
+      "TargetPath": "Pages\\Roulette\\Create_Bet.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ciro_\\Test_Projects\\2021-1 Intersemestral WEB\\-pruebas\\Project1\\Pages\\Person\\Search\\Person_Search.cshtml",
+      "TargetPath": "Pages\\Person\\Search\\Person_Search.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ciro_\\Test_Projects\\2021-1 Intersemestral WEB\\-pruebas\\Project1\\Pages\\Test\\Privacy.cshtml",
+      "TargetPath": "Pages\\Test\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ciro_\\Test_Projects\\2021-1 Intersemestral WEB\\-pruebas\\Project1\\Pages\\Roulette\\Create_Result.cshtml",
+      "TargetPath": "Pages\\Roulette\\Create_Result.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ciro_\\Test_Projects\\2021-1 Intersemestral WEB\\-pruebas\\Project1\\Pages\\Shared\\_Layout.cshtml",
+      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ciro_\\Test_Projects\\2021-1 Intersemestral WEB\\-pruebas\\Project1\\Pages\\Person\\Person_Create_Successful.cshtml",
+      "TargetPath": "Pages\\Person\\Person_Create_Successful.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ciro_\\Test_Projects\\2021-1 Intersemestral WEB\\-pruebas\\Project1\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ciro_\\Test_Projects\\2021-1 Intersemestral WEB\\-pruebas\\Project1\\Pages\\Roulette\\Roulette_Welcome.cshtml",
+      "TargetPath": "Pages\\Roulette\\Roulette_Welcome.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ciro_\\Test_Projects\\2021-1 Intersemestral WEB\\-pruebas\\Project1\\Pages\\Person\\Update\\Person_Update.cshtml",
+      "TargetPath": "Pages\\Person\\Update\\Person_Update.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ciro_\\Test_Projects\\2021-1 Intersemestral WEB\\-pruebas\\Project1\\Pages\\Person\\Person_Create.cshtml",
+      "TargetPath": "Pages\\Person\\Person_Create.cshtml",
       "FileKind": "mvc"
     }
   ],

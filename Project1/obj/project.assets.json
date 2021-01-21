@@ -5803,11 +5803,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ciro_\\Test_Projects\\2021-1 Intersemestral WEB\\Project1\\Project1.csproj",
+      "projectUniqueName": "C:\\Users\\ciro_\\Test_Projects\\2021-1 Intersemestral WEB\\-pruebas\\Project1\\Project1.csproj",
       "projectName": "Project1",
-      "projectPath": "C:\\Users\\ciro_\\Test_Projects\\2021-1 Intersemestral WEB\\Project1\\Project1.csproj",
+      "projectPath": "C:\\Users\\ciro_\\Test_Projects\\2021-1 Intersemestral WEB\\-pruebas\\Project1\\Project1.csproj",
       "packagesPath": "C:\\Users\\ciro_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ciro_\\Test_Projects\\2021-1 Intersemestral WEB\\Project1\\obj\\",
+      "outputPath": "C:\\Users\\ciro_\\Test_Projects\\2021-1 Intersemestral WEB\\-pruebas\\Project1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ciro_\\AppData\\Roaming\\NuGet\\NuGet.Config"

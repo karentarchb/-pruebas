@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZK4w2IsDb7nflmRJnhO7P4EEJP49ZH+gCDcXySjvpukg8RwMDTOfIZ4LaWjd5BLbtc+eRF+2ZqQ0N2/ViwzRbQ==",
+  "dgSpecHash": "Y9yMD2Zmi7wo6ch+ClTwGZltNoKCICwV1VJ/pn4uQYM5nxgVFotT561oN7T4ihTDlNfhnmcKvN6QV8+dUbjIHQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ciro_\\Test_Projects\\2021-1 Intersemestral WEB\\Project1\\Project1.csproj",
+  "projectFilePath": "C:\\Users\\ciro_\\Test_Projects\\2021-1 Intersemestral WEB\\-pruebas\\Project1\\Project1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ciro_\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ciro_\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

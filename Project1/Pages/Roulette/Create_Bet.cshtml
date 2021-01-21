@@ -1,0 +1,16 @@
+@page
+@model Project1.Pages.Roulette.Create_Bet_Model
+
+<h1>Create a Bet in a Table</h1>
+
+<div class="border container">
+    <form method="POST">
+        <div class="row">
+            <select asp-for="roulettes" asp-items="Model.roulettes"></select>
+        </div>
+        
+        <div class="row">
+            <button type="submit"></button>
+        </div>
+    </form>
+</div>
