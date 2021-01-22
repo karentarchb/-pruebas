@@ -153,3 +153,4 @@ C:\Users\ciro_\Test_Projects\2021-1 Intersemestral WEB\-pruebas\Project1\obj\Deb
 C:\Users\ciro_\Test_Projects\2021-1 Intersemestral WEB\-pruebas\Project1\obj\Debug\net5.0\Project1.genruntimeconfig.cache
 C:\Users\ciro_\Test_Projects\2021-1 Intersemestral WEB\-pruebas\Project1\obj\Debug\net5.0\Razor\Pages\Roulette\Create_Table.cshtml.g.cs
 C:\Users\ciro_\Test_Projects\2021-1 Intersemestral WEB\-pruebas\Project1\obj\Debug\net5.0\Razor\Pages\Roulette\Create_Result.cshtml.g.cs
+C:\Users\ciro_\Test_Projects\2021-1 Intersemestral WEB\-pruebas\Project1\obj\Debug\net5.0\Razor\Pages\Roulette\Create_Bet.cshtml.g.cs

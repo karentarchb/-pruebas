@@ -3,14 +3,35 @@
 
 <h1>Create a Bet in a Table</h1>
 
-<div class="border container">
+<div class="border container col-12">
     <form method="POST">
-        <div class="row">
-            <select asp-for="roulettes" asp-items="Model.roulettes"></select>
+        <div class="col-12 row form-group">
+           <!-- <select asp-for="roulettes" asp-items="Model.roulettes"></select> -->
+           <div class="col-3">
+                @Html.LabelFor(Model => Model.roulettes);
+           </div>
+           <div class="col-6">
+                <select name="roulettes">
+                @foreach (var item in Model.roulettes)
+                {
+                <option value="@item.rouletteID" asp-for>@item.rouletteID</option>
+                }
+                </select>
+           </div>
+            
+
+            @Html.LabelFor(Model => Model.results);
+            <select name="results">
+            @foreach (var item in Model.results)
+            {
+                var s = item.number + " - " + item.color;
+               <option value="@item.resultID" >@s</option>
+            }
+            </select>
         </div>
         
         <div class="row">
-            <button type="submit"></button>
+            <button type="submit" class="btn btn-primary">Create Bet</button>
         </div>
     </form>
 </div>

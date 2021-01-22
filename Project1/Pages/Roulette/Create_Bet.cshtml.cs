@@ -16,14 +16,15 @@ namespace Project1.Pages.Roulette
     {
         private readonly AppDbContext _db;
 
-        public List<Project1.Models.Casino.Roulette> roulettes {get; set;}
-        public SelectList optionsRoulette {get;set;}
-        public Project1.Models.Casino.Bet bet {get; set;}
-        public List<Project1.Models.Casino.Result> results {get; set;}
-
+        [BindProperty] public IEnumerable<Project1.Models.Casino.Roulette> roulettes {get; set;}
+        [BindProperty] public SelectList optionsRoulette {get;set;}
+        [BindProperty] public Project1.Models.Casino.Bet bet {get; set;}
+        [BindProperty] public IEnumerable<Project1.Models.Casino.Result> results {get; set;}
+        [BindProperty] public int resultID {get; set;}
         public Create_Bet_Model (AppDbContext db)
         {
             _db = db;
+            //List => IEnumerable
         }
 
         public void OnGet()
@@ -31,7 +32,8 @@ namespace Project1.Pages.Roulette
             roulettes = _db.t_Roulette.ToList();
             results = _db.t_Result.ToList();
 
-            optionsRoulette = new SelectList(roulettes, nameof(roulettes.rouletteID));
+
+            //optionsRoulette = new SelectList(roulettes);
 
         }
 
